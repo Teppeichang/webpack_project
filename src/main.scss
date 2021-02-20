@@ -1,1 +1,33 @@
-@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/bootstrap.scss"; 
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  height: 100px;
+  width: 100%;
+  z-index: 100;
+
+  &__logo {
+    color: white;
+    padding-left: 24px;
+  }
+
+  &__menu-btn {
+    background-color: unset;
+    border: none;
+    outline: none !important;
+    padding-right: 24px;
+    cursor: pointer;
+    & > span {
+      background-color: white;
+      width: 35px;
+      height: 2px;
+      display: block;
+      margin-bottom: 9px;
+    }
+  
+  }
+}
