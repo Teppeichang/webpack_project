@@ -49,14 +49,10 @@ module.exports = {
       },
     ],
   },
-  //プラグインの設定
   plugins: [
-    //MiniCssExtractPlugin プラグインのインスタンスを生成
     new MiniCssExtractPlugin({
-      //出力される CSS のファイル名を指定
       filename: "css/main.css",
     }),
   ],
-  //source-map タイプのソースマップを出力
   devtool: "source-map",
 };
