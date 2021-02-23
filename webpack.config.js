@@ -20,8 +20,9 @@ module.exports = {
           {
             loader: "css-loader",
             options: {
+              url: false,
               sourceMap: true,
-              importLoaders: 2,
+              importLoaders: 2
             },
           },
           {
@@ -37,7 +38,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(gif|png|jpe?g|svg|eot|wof|woff|ttf)$/i,
+        test: /\.(gif|png|jpeg|jpg|svg|eot|wof|woff|ttf)$/i,
         use: [
           {
             loader: 'file-loader',

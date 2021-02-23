@@ -10655,4 +10655,53 @@ textarea.form-control-lg {
   margin-bottom: 9px;
 }
 
+.main {
+  height: 1000px;
+  width: 100%;
+  background: url("/dist/img/B2BCA164-5A10-4827-ACF3-7A93D339BB5B.jpeg");
+  background-size: cover;
+}
+.main__title {
+  padding-top: 500px;
+  text-align: center;
+  color: white;
+  z-index: 100;
+}
+.main__subtitle {
+  display: block;
+  text-align: center;
+  color: white;
+  z-index: 100;
+}
+
+.profile {
+  height: 1000px;
+  width: 100%;
+  background-color: gray;
+}
+
+.photo {
+  height: 1000px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.movie {
+  height: 1000px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.contact {
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
 /*# sourceMappingURL=main.css.map*/
