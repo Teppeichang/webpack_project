@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   background-color:black;
-  height: 100px;
+  height: 88px;
   width: 100%;
   z-index: 100;
 
@@ -39,12 +39,12 @@
   height: 1000px;
   width: 100%;
   background: url('/dist/img/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   &__title {
     font-family: 'Michroma', sans-serif;
     font-size: 48px;
-    padding-top: 400px;
+    padding-top: 392px;
     text-align: center;
     color: white;
     z-index: 100;
@@ -66,9 +66,39 @@
 .profile {
   height: 1000px;
   width: 100%;
-  &__head {
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__title {
+    padding-top: 40px;
     text-align: center;
     font-family: 'Michroma', sans-serif;
+  }
+  &__image > img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50% 50%;
+  }
+  &__text > a {
+    font-size: 32px;
+    padding-right: 16px;
+    & .fa-twitter {
+      color: rgb(70, 183, 228);
+    }
+    & .fa-instagram {
+      background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+      background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+      background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+     -webkit-text-fill-color:transparent;
+    }
+    & .fa-youtube {
+      color: red;
+    }
   }
 }
 
@@ -94,4 +124,19 @@
   height: 100px;
   width: 100%;
   background-color: black;
+}
+
+@media screen and (max-width:480px) {
+  .header {
+    height: 50px;
+  }
+  .main {
+    &__title {
+      padding-top: 200px;
+      font-size: 24px;
+    }
+    &__subtitle {
+      font-size: 16px;
+    }
+  }
 }
