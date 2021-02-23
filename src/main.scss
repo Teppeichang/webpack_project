@@ -36,10 +36,10 @@
 }
 
 .main {
-  height: 1600px;
-  width: auto;
+  height: 1000px;
+  width: 100%;
   background: url('/dist/img/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   &__title {
     font-family: 'Michroma', sans-serif;
@@ -66,7 +66,6 @@
 .profile {
   height: 1000px;
   width: 100%;
-  z-index: 100;
   &__head {
     text-align: center;
     font-family: 'Michroma', sans-serif;

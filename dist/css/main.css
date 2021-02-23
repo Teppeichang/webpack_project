@@ -10659,10 +10659,10 @@ textarea.form-control-lg {
 }
 
 .main {
-  height: 1600px;
-  width: auto;
+  height: 1000px;
+  width: 100%;
   background: url("/dist/img/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .main__title {
@@ -10689,7 +10689,6 @@ textarea.form-control-lg {
 .profile {
   height: 1000px;
   width: 100%;
-  z-index: 100;
 }
 .profile__head {
   text-align: center;
