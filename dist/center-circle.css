@@ -1,8 +1,8 @@
-.pace-done #global-container {
+.pace-done .global-container {
   transition: opacity 1s;
 }
 
-.pace-running #global-container {
+.pace-running .global-container {
   opacity: 0;
   visibility: hidden;
 }

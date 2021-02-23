@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Michroma&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
@@ -10637,6 +10639,7 @@ textarea.form-control-lg {
   z-index: 100;
 }
 .header__logo {
+  font-family: "Libre Barcode 39 Text", cursive;
   color: white;
   padding-left: 24px;
 }
@@ -10662,21 +10665,30 @@ textarea.form-control-lg {
   background-size: cover;
 }
 .main__title {
-  padding-top: 500px;
+  font-family: "Michroma", sans-serif;
+  font-size: 48px;
+  padding-top: 400px;
   text-align: center;
   color: white;
   z-index: 100;
 }
+.main__title-space {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .main__subtitle {
+  padding-top: 20px;
+  font-size: 24px;
   display: block;
   text-align: center;
   color: white;
-  z-index: 100;
+  z-index: 200;
 }
 
 .profile {
   height: 1000px;
   width: 100%;
+  z-index: 100;
   background-color: gray;
 }
 
