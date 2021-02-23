@@ -1,7 +1,5 @@
 ## 使用技術やライブラリ・フレームワーク
 - Webpack
 - Bootstrap
-- popper.js
-- luxy.js
-- swiper.js
+- luxy.js(パララックス+慣性スクロール)
 - PACE.js(ページローダー)
