@@ -10687,7 +10687,7 @@ textarea.form-control-lg {
 }
 
 .profile {
-  height: 1000px;
+  height: 560px;
   width: 100%;
 }
 .profile__container {
@@ -10701,13 +10701,15 @@ textarea.form-control-lg {
   font-family: "Michroma", sans-serif;
 }
 .profile__image > img {
-  height: 400px;
-  width: 400px;
+  height: 320px;
+  width: 320px;
   border-radius: 50% 50%;
+  margin-top: 48px;
 }
 .profile__text > a {
   font-size: 32px;
   padding-right: 16px;
+  margin-top: 16px;
 }
 .profile__text > a .fa-twitter {
   color: #46b7e4;
@@ -10729,6 +10731,15 @@ textarea.form-control-lg {
   height: 1000px;
   width: 100%;
   background-color: lightgrey;
+}
+.photo__title {
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+.photo .swiper-container .swiper-slide > img {
+  height: 320px;
+  width: 320px;
 }
 
 .movie {

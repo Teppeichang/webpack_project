@@ -15073,7 +15073,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var mySwiper = new swiper__WEBPACK_IMPORTED_MODULE_2__.default( '.swiper-container' );
+const swiper = new swiper__WEBPACK_IMPORTED_MODULE_2__.default();
 })();
 
 /******/ })()
