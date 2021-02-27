@@ -1,7 +1,6 @@
 @import "~bootstrap/scss/bootstrap.scss"; 
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
-// @import "~swiper/swiper-bundle.css";
 
 .header {
   position: fixed;
@@ -105,8 +104,6 @@
   }
 }
 
-
-
 .movie {
   height: 1000px;
   width: 100%;
@@ -139,4 +136,13 @@
       font-size: 16px;
     }
   }
+}
+
+// swiper-slide内の画像CSS調整
+.swiper-slide > img {
+  width: 800px;
+  height: 800px;
+  max-width: 100%;
+  object-fit: cover;
+  transition: transform 1.9s ease;
 }

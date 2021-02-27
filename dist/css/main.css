@@ -10758,6 +10758,13 @@ textarea.form-control-lg {
     font-size: 16px;
   }
 }
+.swiper-slide > img {
+  width: 800px;
+  height: 800px;
+  max-width: 100%;
+  object-fit: cover;
+  transition: transform 1.9s ease;
+}
 /**
  * Swiper 6.4.15
  * Most modern mobile touch slider and framework with hardware accelerated transitions
