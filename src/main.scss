@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap.scss"; 
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+// @import "~swiper/swiper-bundle.css";
 
 .header {
   position: fixed;
@@ -104,22 +105,7 @@
   }
 }
 
-.photo {
-  height: 1000px;
-  width: 100%;
-  background-color: lightgrey;
-  &__title {
-    padding-top: 40px;
-    text-align: center;
-    font-family: 'Michroma', sans-serif;
-  }
-  & .swiper-container {
-    & .swiper-slide > img {
-      height: 320px;
-      width: 320px;  
-    }
-  }
-}
+
 
 .movie {
   height: 1000px;
@@ -139,6 +125,7 @@
   background-color: black;
 }
 
+// Responsive
 @media screen and (max-width:480px) {
   .header {
     height: 50px;

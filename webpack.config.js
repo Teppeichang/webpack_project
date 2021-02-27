@@ -12,7 +12,16 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.js$/,
+        exclude: /node_modules\/(?!(dom7|swiper)\/).*/,
+        use: [
+          {
+            loader: 'babel-loader'
+          }
+        ]
+      },
+      {
+        test: /\.(sass|css|scss)$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
