@@ -1,6 +1,4 @@
 import 'bootstrap';
-import 'popper.js';
-import 'jquery';
 import './main.scss';
 import Swiper, {Navigation} from 'swiper';
 Swiper.use([Navigation]);
