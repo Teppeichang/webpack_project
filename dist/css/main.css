@@ -10687,7 +10687,7 @@ textarea.form-control-lg {
 }
 
 .profile {
-  height: 560px;
+  height: 640px;
   width: 100%;
 }
 .profile__container {
@@ -10697,6 +10697,7 @@ textarea.form-control-lg {
 }
 .profile__title {
   padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
   font-family: "Michroma", sans-serif;
 }
@@ -10738,11 +10739,26 @@ textarea.form-control-lg {
   width: 100%;
   background-color: white;
 }
+.contact__title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+.contact__text {
+  text-align: center;
+}
 
 .footer {
-  height: 100px;
+  height: 50px;
   width: 100%;
   background-color: black;
+}
+.footer__text {
+  font-size: 12px;
+  padding: 16px;
+  color: white;
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -10758,12 +10774,42 @@ textarea.form-control-lg {
     font-size: 16px;
   }
 }
+.swiper-container {
+  background-image: url("/dist/img/B2BCA164-5A10-4827-ACF3-7A93D339BB5B.jpeg");
+  background-size: cover;
+}
+.swiper-container__title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+
 .swiper-slide > img {
-  width: 800px;
-  height: 800px;
+  width: 1000px;
+  height: 560px;
   max-width: 100%;
   object-fit: cover;
   transition: transform 1.9s ease;
+}
+
+form {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 640px;
+  padding: 8px;
+}
+
+.btn {
+  width: 320px;
+  margin-top: 16px;
 }
 /**
  * Swiper 6.4.15
@@ -10795,6 +10841,9 @@ textarea.form-control-lg {
   padding: 0;
   /* Fix of Webkit flickering */
   z-index: 1;
+  background-color: gainsboro;
+  height: 800px;
+  width: 100%;
 }
 
 .swiper-container-vertical > .swiper-wrapper {
@@ -10844,6 +10893,8 @@ textarea.form-control-lg {
   height: 100%;
   position: relative;
   transition-property: transform;
+  display: flex;
+  justify-content: center;
 }
 
 .swiper-slide-invisible-blank {

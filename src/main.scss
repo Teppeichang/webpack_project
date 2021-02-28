@@ -64,7 +64,7 @@
 }
 
 .profile {
-  height: 560px;
+  height: 640px;
   width: 100%;
   &__container {
     display: flex;
@@ -73,6 +73,7 @@
   }
   &__title {
     padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
     font-family: 'Michroma', sans-serif;
   }
@@ -114,12 +115,27 @@
   height: 1000px;
   width: 100%;
   background-color: white;
+  &__title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+  }
+  &__text {
+    text-align: center;
+  }
 }
 
 .footer {
-  height: 100px;
+  height: 50px;
   width: 100%;
   background-color: black;
+  &__text {
+    font-size: 12px;
+    padding: 16px;
+    color: white;
+    text-align: center;
+  }
 }
 
 // Responsive
@@ -138,11 +154,42 @@
   }
 }
 
-// swiper-slide内の画像CSS調整
+// Swiper
+.swiper-container {
+  background-image: url('/dist/img/B2BCA164-5A10-4827-ACF3-7A93D339BB5B.jpeg');
+  background-size: cover;
+  &__title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+  }
+}
+
 .swiper-slide > img {
-  width: 800px;
-  height: 800px;
+  width: 1000px;
+  height: 560px;
   max-width: 100%;
   object-fit: cover;
   transition: transform 1.9s ease;
+}
+
+// Bootstrap form
+form {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 640px;
+  padding: 8px;
+}
+
+.btn {
+  width: 320px;
+  margin-top: 16px;
 }

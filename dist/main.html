@@ -78,6 +78,7 @@
         </div>
       </section>
       <section class="swiper-container">
+        <h2 class="swiper-container__title">- Photo -</h2>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="./img/0A053D96-EB20-475C-96D0-3A3A8A0E8CC0.jpeg" />
@@ -99,8 +100,39 @@
         <div class="swiper-button-next"></div>
       </section>
       <section class="movie"></section>
-      <section class="contact"></section>
-      <section class="footer"></section>
+      <section class="contact">
+        <h2 class="contact__title">- Contact -</h2>
+        <p class="contact__text">撮影のご依頼はいつでも承っております。お気軽にご連絡ください。（スケジュールの都合で返信に時間を要する場合がございます。ご了承ください。）</p>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">メールアドレス　※必須</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">お電話番号　※必須　</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">撮影希望日時　※必須　</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例：４月１日 １３時頃">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">ご依頼内容（クリックすると選択できます）　※必須</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>写真撮影</option>
+              <option>動画撮影</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">その他ご要望等</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="例：海辺でドローンを使った撮影をしてほしい。"></textarea>
+          </div>
+          <button type="button" class="btn btn-dark">送　信</button>
+        </form>
+      </section>
+      <section class="footer">
+        <p class="footer__text">©Copyright Haruki Ito 2021 All Right Reserved</p>
+      </section>
     </div>
     <script>
       luxy.init({
