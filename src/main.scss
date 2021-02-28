@@ -23,6 +23,7 @@
     border: none;
     outline: none !important;
     padding-right: 24px;
+    padding-top: 16px;
     cursor: pointer;
     & > span {
       background-color: white;
@@ -31,7 +32,6 @@
       display: block;
       margin-bottom: 9px;
     }
-  
   }
 }
 
@@ -106,13 +106,51 @@
 }
 
 .movie {
-  height: 1000px;
+  height: 800px;
   width: 100%;
   background-color: whitesmoke;
+  &__title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__youtube {
+    width: 1000px; 
+    height: 560px; 
+  }
+  &__text {
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+    font-size: 24px;
+    padding-top: 24px;
+    & .fa-arrow-right {
+      padding-left: 16px;
+      padding-right: 16px;
+      animation: arrow-animation 1.5s infinite ease;
+      @keyframes arrow-animation {
+        0% {
+          transform: translateX(-8px);
+        }
+        100% {
+          transform: translateX(8px);
+        }  
+      }
+    }
+    & .fa-youtube {
+      font-size: 24px;
+      color: red;
+    }
+  }
 }
 
 .contact {
-  height: 1000px;
+  height: 800px;
   width: 100%;
   background-color: white;
   &__title {
@@ -187,9 +225,19 @@ form {
 .form-group {
   width: 640px;
   padding: 8px;
+  & label {
+    margin-bottom: 4px;
+  }
+  & label > span {
+    background-color: red;
+    color: white;
+    padding: 4px;
+    margin-left: 4px;
+    border-radius: 5px 5px;
+  }
 }
 
 .btn {
   width: 320px;
-  margin-top: 16px;
+  margin-top: 24px;
 }

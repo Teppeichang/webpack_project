@@ -10648,6 +10648,7 @@ textarea.form-control-lg {
   border: none;
   outline: none !important;
   padding-right: 24px;
+  padding-top: 16px;
   cursor: pointer;
 }
 .header__menu-btn > span {
@@ -10729,13 +10730,51 @@ textarea.form-control-lg {
 }
 
 .movie {
-  height: 1000px;
+  height: 800px;
   width: 100%;
   background-color: whitesmoke;
 }
+.movie__title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+.movie__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie__youtube {
+  width: 1000px;
+  height: 560px;
+}
+.movie__text {
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+  font-size: 24px;
+  padding-top: 24px;
+}
+.movie__text .fa-arrow-right {
+  padding-left: 16px;
+  padding-right: 16px;
+  animation: arrow-animation 1.5s infinite ease;
+}
+@keyframes arrow-animation {
+  0% {
+    transform: translateX(-8px);
+  }
+  100% {
+    transform: translateX(8px);
+  }
+}
+.movie__text .fa-youtube {
+  font-size: 24px;
+  color: red;
+}
 
 .contact {
-  height: 1000px;
+  height: 800px;
   width: 100%;
   background-color: white;
 }
@@ -10806,10 +10845,20 @@ form {
   width: 640px;
   padding: 8px;
 }
+.form-group label {
+  margin-bottom: 4px;
+}
+.form-group label > span {
+  background-color: red;
+  color: white;
+  padding: 4px;
+  margin-left: 4px;
+  border-radius: 5px 5px;
+}
 
 .btn {
   width: 320px;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 /**
  * Swiper 6.4.15

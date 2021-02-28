@@ -19,11 +19,24 @@
   <body>
     <section class="header">
       <h2 class="header__logo">HARUKI ITO</h2>
-      <button class="header__menu-btn">
-        <span></span>
-        <span></span>
-        <span></span>
+      <button
+        id="btnOpenMenu"
+        class="header__menu-btn dropdown-toggle"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        aria-haspopup="true"
+      >
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="dropdown-menu" aria-labelledby="btnOpenMenu">
+        <a class="dropdown-item" href="#">Profile</a>
+        <a class="dropdown-item" href="#">Photo</a>
+        <a class="dropdown-item" href="#">Movie</a>
+        <a class="dropdown-item" href="#">Contact</a>
+      </div>
     </section>
     <div class="global-container" id="luxy">
       <section class="main">
@@ -99,39 +112,68 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </section>
-      <section class="movie"></section>
+      <section class="movie">
+        <h2 class="movie__title">- Movie -</h2>
+        <div class="movie__container">
+          <iframe
+            class="movie__youtube"
+            src="https://www.youtube-nocookie.com/embed/ywH4Yqewok4"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="movie__text">
+          More...<i class="fas fa-arrow-right"></i
+          ><a href="#"><i class="fab fa-youtube"></i></a>
+        </p>
+      </section>
       <section class="contact">
         <h2 class="contact__title">- Contact -</h2>
-        <p class="contact__text">撮影のご依頼はいつでも承っております。お気軽にご連絡ください。（スケジュールの都合で返信に時間を要する場合がございます。ご了承ください。）</p>
+        <p class="contact__text">
+          撮影のご依頼はいつでも承っております。お気軽にご連絡ください。（スケジュールの都合で返信に時間を要する場合がございます。ご了承ください。）
+        </p>
         <form>
           <div class="form-group">
-            <label for="exampleFormControlInput1">メールアドレス　※必須</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1">
+            <label>メールアドレス<span>必須</span></label>
+            <input type="email" class="form-control" />
           </div>
           <div class="form-group">
-            <label for="exampleFormControlInput1">お電話番号　※必須　</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1">
+            <label>お電話番号<span>必須</span></label>
+            <input type="text" class="form-control" />
           </div>
           <div class="form-group">
-            <label for="exampleFormControlInput1">撮影希望日時　※必須　</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例：４月１日 １３時頃">
+            <label>撮影希望日時<span>必須</span></label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="例：４月１日 １３時頃"
+            />
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect1">ご依頼内容（クリックすると選択できます）　※必須</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <label
+              >ご依頼内容（クリックすると選択できます）<span>必須</span></label
+            >
+            <select class="form-control">
               <option>写真撮影</option>
               <option>動画撮影</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">その他ご要望等</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="例：海辺でドローンを使った撮影をしてほしい。"></textarea>
+            <label>その他ご要望等</label>
+            <textarea
+              class="form-control"
+              rows="3"
+              placeholder="例：海辺でドローンを使った撮影をしてほしい。"
+            ></textarea>
           </div>
           <button type="button" class="btn btn-dark">送　信</button>
         </form>
       </section>
       <section class="footer">
-        <p class="footer__text">©Copyright Haruki Ito 2021 All Right Reserved</p>
+        <p class="footer__text">
+          ©Copyright Haruki Ito 2021 All Right Reserved
+        </p>
       </section>
     </div>
     <script>
