@@ -10776,16 +10776,19 @@ textarea.form-control-lg {
 .contact {
   height: 800px;
   width: 100%;
-  background-color: white;
+  background-image: url("/dist/img/dustan-woodhouse-lJcSgm5gzpg-unsplash.jpg");
+  background-size: cover;
 }
 .contact__title {
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
   font-family: "Michroma", sans-serif;
+  color: white;
 }
 .contact__text {
   text-align: center;
+  color: white;
 }
 
 .footer {
@@ -10847,6 +10850,7 @@ form {
 }
 .form-group label {
   margin-bottom: 4px;
+  color: white;
 }
 .form-group label > span {
   background-color: red;
