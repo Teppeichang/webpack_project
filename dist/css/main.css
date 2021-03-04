@@ -10633,7 +10633,7 @@ textarea.form-control-lg {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 88px;
   width: 100%;
   z-index: 100;
@@ -10834,6 +10834,12 @@ textarea.form-control-lg {
   max-width: 100%;
   object-fit: cover;
   transition: transform 1.9s ease;
+}
+
+.dropdown-toggle::after {
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
 }
 
 form {
