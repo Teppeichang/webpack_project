@@ -10822,7 +10822,7 @@ textarea.form-control-lg {
   width: 1000px;
   height: 560px;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 1.9s ease;
 }
 
