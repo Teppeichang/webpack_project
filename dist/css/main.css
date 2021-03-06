@@ -10634,7 +10634,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 88px;
+  height: 72px;
   width: 100%;
   z-index: 100;
 }
@@ -10684,7 +10684,7 @@ textarea.form-control-lg {
   display: block;
   text-align: center;
   color: white;
-  z-index: 200;
+  z-index: 100;
 }
 
 .profile {
@@ -10707,6 +10707,9 @@ textarea.form-control-lg {
   width: 320px;
   border-radius: 50% 50%;
   margin-top: 48px;
+}
+.profile__name {
+  font-weight: bold;
 }
 .profile__text > a {
   font-size: 32px;
@@ -10803,19 +10806,6 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-  .header {
-    height: 50px;
-  }
-
-  .main__title {
-    padding-top: 200px;
-    font-size: 24px;
-  }
-  .main__subtitle {
-    font-size: 16px;
-  }
-}
 .swiper-container {
   background-image: url("/dist/img/B2BCA164-5A10-4827-ACF3-7A93D339BB5B.jpeg");
   background-size: cover;
@@ -10869,6 +10859,78 @@ form {
 .btn {
   width: 320px;
   margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 50px;
+  }
+  .header__logo {
+    visibility: hidden;
+  }
+  .header__menu-btn {
+    margin-top: 16px;
+  }
+
+  .main {
+    max-width: 100%;
+    height: 320px;
+    background-size: 100% 100%;
+    object-fit: cover;
+  }
+  .main__title {
+    padding-top: 120px;
+    font-size: 24px;
+  }
+  .main__subtitle {
+    font-size: 16px;
+  }
+
+  .profile__container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 75%;
+    margin: auto;
+  }
+  .profile__image > img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50% 50%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .profile__name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .profile__text {
+    padding-top: 16px;
+  }
+
+  .movie {
+    height: 400px;
+  }
+  .movie__youtube {
+    width: auto;
+    height: auto;
+  }
+
+  .contact__text {
+    max-width: 80%;
+    margin: auto;
+    text-align: start;
+  }
+
+  .form-group {
+    max-width: 80%;
+  }
+
+  .btn {
+    width: 80%;
+    margin-top: 12px;
+  }
 }
 /**
  * Swiper 6.4.15
