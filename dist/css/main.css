@@ -10642,13 +10642,14 @@ textarea.form-control-lg {
   font-family: "Libre Barcode 39 Text", cursive;
   color: white;
   padding-left: 24px;
+  padding-top: 12px;
 }
 .header__menu-btn {
   background-color: unset;
   border: none;
   outline: none !important;
   padding-right: 24px;
-  padding-top: 16px;
+  padding-top: 32px;
   cursor: pointer;
 }
 .header__menu-btn > span {
@@ -10881,7 +10882,7 @@ form {
     visibility: hidden;
   }
   .header__menu-btn {
-    margin-top: 16px;
+    padding-top: 32px;
   }
 
   .main {
@@ -10909,7 +10910,7 @@ form {
     height: 160px;
     width: 160px;
     border-radius: 50% 50%;
-    margin-top: 0px;
+    margin-top: 16px;
     margin-bottom: 40px;
   }
   .profile__name {
@@ -10930,6 +10931,9 @@ form {
     width: auto;
     height: auto;
   }
+  .movie__text {
+    padding-top: 48px;
+  }
 
   .contact__text {
     max-width: 80%;
@@ -10944,6 +10948,67 @@ form {
   .btn {
     width: 80%;
     margin-top: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    max-width: 100%;
+    height: 480px;
+    background-size: cover;
+  }
+  .main__title {
+    padding-top: 200px;
+  }
+
+  .profile__title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .profile__container {
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    margin: auto;
+    padding-top: 120px;
+  }
+  .profile__image > img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50% 50%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .profile__name {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .profile__text {
+    padding-left: 32px;
+  }
+  .profile__text > p {
+    font-size: 14px;
+  }
+
+  .movie__youtube {
+    width: 80%;
+    height: 480px;
+  }
+  .movie__text {
+    padding-top: 72px;
+  }
+
+  .contact__text {
+    max-width: 80%;
+    margin: auto;
+    text-align: start;
+  }
+
+  .form-group {
+    max-width: 80%;
+  }
+
+  .btn {
+    width: 80%;
   }
 }
 /**
