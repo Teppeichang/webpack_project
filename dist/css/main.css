@@ -10832,6 +10832,17 @@ textarea.form-control-lg {
   border-left: none;
 }
 
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.dropdown-item {
+  color: white;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+
 form {
   padding-top: 40px;
   display: flex;
@@ -10907,6 +10918,9 @@ form {
   }
   .profile__text {
     padding-top: 16px;
+  }
+  .profile__text > p {
+    font-size: 14px;
   }
 
   .movie {
