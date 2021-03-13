@@ -2,40 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
 
-.header {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color:rgba($color: #000000, $alpha: 0.5);
-  height: 72px;
-  width: 100%;
-  z-index: 100;
-
-  &__logo {
-    font-family: 'Libre Barcode 39 Text', cursive;
-    color: white;
-    padding-left: 24px;
-    padding-top: 12px;
-  }
-
-  &__menu-btn {
-    background-color: unset;
-    border: none;
-    outline: none !important;
-    padding-right: 24px;
-    padding-top: 32px;
-    cursor: pointer;
-    & > span {
-      background-color: white;
-      width: 35px;
-      height: 2px;
-      display: block;
-      margin-bottom: 9px;
-    }
-  }
-}
-
 .main {
   height: 1000px;
   width: 100%;
@@ -202,24 +168,6 @@
   max-width: 100%;
   object-fit: contain;
   transition: transform 1.9s ease;
-}
-
-// Bootstrap dropdown
-.dropdown-toggle::after {
-  border-right: none; 
-  border-bottom: none; 
-  border-left: none;
-}
-
-.dropdown-menu {
-  background-color: rgba($color: #000000, $alpha: 0.8);
-  width: 100%;
-}
-
-.dropdown-item {
-  color: white;
-  text-align: center;
-  font-family: 'Michroma', sans-serif;
 }
 
 // Bootstrap form
