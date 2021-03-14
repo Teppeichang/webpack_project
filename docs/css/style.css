@@ -10747,7 +10747,7 @@ textarea.form-control-lg {
 .contact {
   height: 800px;
   width: 100%;
-  background-image: url("/docs/img/dustan-woodhouse-lJcSgm5gzpg-unsplash.jpg");
+  background-image: url("../../img/dustan-woodhouse-lJcSgm5gzpg-unsplash.jpg");
   background-size: cover;
 }
 .contact__title {
