@@ -1,3 +1,4 @@
 .DS_Store
 .header.html
 .header.scss
+node_modules
