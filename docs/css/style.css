@@ -10840,7 +10840,7 @@ form {
     height: 320px;
     background-size: 100% 100%;
     object-fit: cover;
-    background-image: url('/docs/img/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg');
+    background-image: url('../img/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg');
   }
   .main__title {
     padding-top: 120px;
