@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', function(){
+
   const modalArea = document.getElementById('modalArea');
 
   const openModal = document.getElementsByClassName('openModal');

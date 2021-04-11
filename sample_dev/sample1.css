@@ -1,4 +1,18 @@
-.photo_genre {
+.photo {
+  background-image: url("/dist/img/B2BCA164-5A10-4827-ACF3-7A93D339BB5B.jpeg");
+  background-size: cover;
+  height: 700px;
+}
+
+.photo__title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+
+.photo__genre {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +73,6 @@
   width: 70%;
   max-width: 500px;
   padding: 10px 30px;
-  background-color: #fff;
 }
 
 .closeModal {
@@ -69,7 +82,11 @@
   cursor: pointer;
 }
 
-.is-show { /* モーダル表示用クラス */
+.is-show {
   visibility: visible;
   opacity : 1;
+}
+
+.swiper-container{
+  background: none;
 }
