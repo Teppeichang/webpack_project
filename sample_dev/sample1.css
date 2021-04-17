@@ -39,6 +39,7 @@
   text-align: center;
   padding: 30px;
   font-family: 'Michroma', sans-serif;
+  cursor: pointer;
 }
 
 
@@ -66,11 +67,14 @@
   left: 50%;
   transform:translate(-50%,-50%);
   width: 70%;
-  max-width: 500px;
+  max-width: 1000px;
   padding: 10px 30px;
 }
 
 .closeModal {
+  color: white;
+  opacity: 0.5;
+  font-size: 32px;
   position: absolute;
   top: 0.5rem;
   right: 1rem;
@@ -84,4 +88,16 @@
 
 .swiper-container{
   background: none;
+}
+
+.swiper-slide > img {
+  width: 1000px;
+  height: 700px;
+  transition: transform 1.9s ease;
+}
+
+@media (max-width: 767px) {
+  .photo__genre {
+    flex-direction: column;
+  }
 }
