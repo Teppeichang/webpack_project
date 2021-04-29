@@ -21,6 +21,7 @@
 
 .card {
   margin: 24px;
+  width: 18rem;
 }
 
 .hover-mask {
@@ -97,7 +98,16 @@
 }
 
 @media (max-width: 767px) {
+  .photo__title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
   .photo__genre {
+    margin-top: 10px;
     flex-direction: column;
+  }
+  .card {
+    margin: 12px;
+    width: 120px;
   }
 }
