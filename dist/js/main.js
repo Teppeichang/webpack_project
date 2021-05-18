@@ -15303,7 +15303,31 @@ __webpack_require__.r(__webpack_exports__);
 
 swiper__WEBPACK_IMPORTED_MODULE_2__.default.use([swiper__WEBPACK_IMPORTED_MODULE_3__.default]);
 
-var mySwiper = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.swiper-container', {
+const family = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.family', {
+  loop: true,
+  freeMode: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+});
+const newBorn = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.new_born', {
+  loop: true,
+  freeMode: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+});
+var portrait = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.portrait', {
+  loop: true,
+  freeMode: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+});
+var couple = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.couple', {
   loop: true,
   freeMode: true,
   navigation: {
