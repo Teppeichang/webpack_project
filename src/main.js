@@ -22,7 +22,7 @@ const newBorn = new Swiper ('.new_born', {
   },
 });
 
-var portrait = new Swiper ('.portrait', {
+const portrait = new Swiper ('.portrait', {
   loop: true,
   freeMode: true,
   navigation: {
@@ -31,7 +31,7 @@ var portrait = new Swiper ('.portrait', {
   },
 });
 
-var couple = new Swiper ('.couple', {
+const couple = new Swiper ('.couple', {
   loop: true,
   freeMode: true,
   navigation: {

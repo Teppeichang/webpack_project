@@ -15319,7 +15319,7 @@ const newBorn = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.new_born', {
     prevEl: '.swiper-button-prev'
   }
 });
-var portrait = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.portrait', {
+const portrait = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.portrait', {
   loop: true,
   freeMode: true,
   navigation: {
@@ -15327,7 +15327,7 @@ var portrait = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.portrait', {
     prevEl: '.swiper-button-prev'
   }
 });
-var couple = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.couple', {
+const couple = new swiper__WEBPACK_IMPORTED_MODULE_2__.default('.couple', {
   loop: true,
   freeMode: true,
   navigation: {

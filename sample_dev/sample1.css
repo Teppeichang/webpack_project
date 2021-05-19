@@ -1,7 +1,7 @@
 .photo {
   background-image: url("/dist/img/B2BCA164-5A10-4827-ACF3-7A93D339BB5B.jpeg");
   background-size: cover;
-  height: 700px;
+  height: auto;
 }
 
 .photo__title {
@@ -25,20 +25,15 @@
 }
 
 .hover-mask {
-  width: auto;
-  height: auto;
+  width: 1000px;
+  height: 665px;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 30px;
   font-family: 'Michroma', sans-serif;
   cursor: pointer;
 }
@@ -93,7 +88,7 @@
 
 .swiper-slide > img {
   width: 1000px;
-  height: 700px;
+  height: 665px;
   transition: transform 1.9s ease;
 }
 
