@@ -1,5 +1,6 @@
 .DS_Store
 .header.html
 .header.scss
+.swiper-photo.html
 node_modules
 node_modules/.DS_Store
