@@ -10630,7 +10630,7 @@ textarea.form-control-lg {
 .main {
   height: 1000px;
   width: 100%;
-  background: url("../img/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg");
+  background: url("../img/couple/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11227,7 +11227,7 @@ form {
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
-  top: 40%;
+  top: 35%;
   width: calc(var(--swiper-navigation-size) / 44 * 27);
   height: var(--swiper-navigation-size);
   margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
@@ -11239,7 +11239,7 @@ form {
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }
 
-@media screen {
+@media (max-width:767px) {
   .swiper-button-prev,
   .swiper-button-next {
     top: 50%;
