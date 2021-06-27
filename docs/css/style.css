@@ -10977,7 +10977,7 @@ form {
 
   .main {
     max-width: 100%;
-    height: 320px;
+    height: 400px;
     background-size: 100% 100%;
     object-fit: cover;
     background-image: url('../img/couple/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg');
@@ -11044,8 +11044,8 @@ form {
 @media (min-width: 768px) and (max-width: 1024px) {
   .main {
     max-width: 100%;
-    height: 480px;
-    background-size: cover;
+    height: 720px;
+    background-size: 100% 100%;
   }
   .main__title {
     padding-top: 200px;
