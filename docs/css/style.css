@@ -10817,11 +10817,11 @@ textarea.form-control-lg {
 }
 
 .contact {
-  height: 800px;
+  height: auto;
   width: 100%;
-  background-image: url("../img/dustan-woodhouse-lJcSgm5gzpg-unsplash.jpg");
-  background-size: cover;
+  background-color: #212529;
 }
+
 .contact__title {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -10829,9 +10829,16 @@ textarea.form-control-lg {
   font-family: "Michroma", sans-serif;
   color: white;
 }
-.contact__text {
-  text-align: center;
-  color: white;
+
+.contact__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__form__body {
+  background-color: whitesmoke;
+  margin-bottom: 40px;
 }
 
 .footer {
@@ -10918,7 +10925,7 @@ form {
     height: 320px;
     background-size: 100% 100%;
     object-fit: cover;
-    background-image: url('../img/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg');
+    background-image: url('../img/couple/65A59F83-AC57-46D2-B6DB-74B8D27E4093.jpeg');
   }
   .main__title {
     padding-top: 120px;
